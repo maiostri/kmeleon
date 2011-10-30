@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Iguana</string>
+    <string name="RUAlarm">Bandeijão</string>
+	<string name="RUNotification">Corra para o bandeijão !!!</string>
+	<string name="RUweb">http://www.pcasc.usp.br/pop_cardapio.php</string>
+</resources>
