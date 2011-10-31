@@ -7,6 +7,10 @@ import android.widget.Button;
 import android.view.View;
 
 public class AndroidNotifyService extends Activity {
+
+	private Network icmcNet;
+	private Network homeNet;
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,5 +29,7 @@ public class AndroidNotifyService extends Activity {
 			}
 		} );
 
+		this.icmcNet = new Network("ICMC");
+		this.homeNet = new Network("HOME");
     }
 }

@@ -1,15 +1,18 @@
 package com.exercise.AndroidNotifyService;
 
+import java.util.*;
+
 public class Network {
 
 	private int status;
 	private String ssid;
 	private int numalarms;
+	private Vector<Alarm> alarms;
 	
 	public Network(String ssid) { 
 		// Search the file whose name is the same that the ssid network
 		// If it doesn't exist, create it;
-		Vector<Alarms>alarms = new Vector<Alarms>();
+		alarms = new Vector<Alarm>();
 		
 		// Populate the vector with the entries of the file
 	}
@@ -39,7 +42,7 @@ public class Network {
 	}
 	
 	public Alarm getAlarm(int id) { 
-		
+		return null;
 	}
 	
 	public void createAlarm(int hour) { }
