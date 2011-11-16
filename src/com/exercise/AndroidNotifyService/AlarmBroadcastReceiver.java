@@ -51,7 +51,7 @@ public class AlarmBroadcastReceiver extends BroadcastReceiver
 		if (wifiManager.isWifiEnabled()) {
 				final WifiInfo wInfo = (WifiInfo) wifiManager.getConnectionInfo();
 				Toast.makeText(context, wInfo.getSSID(), Toast.LENGTH_LONG).show();
-				return ((wInfo.getSSID()).equals("nice"));
+				return ((wInfo.getSSID()).equals("ICMC"));
 		}
 		return false;
 	}
