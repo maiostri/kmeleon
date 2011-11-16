@@ -21,4 +21,21 @@
     android:layout_height="wrap_content" 
     android:text="Stop Service"
     />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/SilentService"
+    />
+<Button
+    android:id="@+id/startsilent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Ativar aulas silenciosas"
+    />
+<Button
+    android:id="@+id/stopsilent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Stop Service"
+    />
 </LinearLayout>

@@ -31,8 +31,7 @@ public class NotifyService extends Service {
 	// // method will not be called.
 	@Override
 	public void onStart(Intent intent, int startId) {
-		Context context = getApplicationContext();
-		Toast.makeText(context, "Alarme do Bandeijão ativado", Toast.LENGTH_LONG).show();
+		//...
 	}
 	
 	/*

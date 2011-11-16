@@ -13,6 +13,7 @@ public class Network {
 		// Search the file whose name is the same that the ssid network
 		// If it doesn't exist, create it;
 		alarms = new Vector<Alarm>();
+		setSSID(ssid);
 		
 		// Populate the vector with the entries of the file
 	}

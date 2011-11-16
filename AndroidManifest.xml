@@ -6,6 +6,7 @@
     <uses-sdk android:minSdkVersion="7" />
 
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".AndroidNotifyService"
@@ -19,6 +20,15 @@
 		<receiver android:enabled="true"
 			android:exported="false"
 			android:name=".AlarmBroadcastReceiver">
+		</receiver>
+		<service android:name=".SilentService"/>
+		<receiver android:enabled="true"
+			android:exported="false"
+			android:name=".OnSilentBroadcastReceiver">
+		</receiver>
+		<receiver android:enabled="true"
+			android:exported="false"
+			android:name=".OffSilentBroadcastReceiver">
 		</receiver>
     </application>
 </manifest>

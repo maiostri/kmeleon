@@ -9,5 +9,16 @@ http://android-er.blogspot.com/2011/04/auto-start-service-with-intent-of.html
 http://android-er.blogspot.com/2011/04/send-notification-inside-background.html
 
 
-Ideia: silent mode durante horarios de aulas se estiver conectado em ICMC
-seg - sex --> 08:10 -- 12:00 e 13:30 -- 19:00
+!!! Me enganei qto ao nome do animal q muda de cor conforme o ambiente. Não eh Iguana e sim Camaleão, entao rebatizei de Kmeleon, hehehehe !!!
+
+*** Implementado envio de Notification as 13:05 e 19:05 p/ o bandeijao
+
+*** Implementado Silent Mode durante horarios de aula:
+1) 08:10 --> entra em silent mode
+2) 09:50 --> sai de silent mode
+3) 10:10 --> entra em silent mode
+4) 11:50 --> sai de silent mode
+5) 13:30 --> entra em silent mode
+6) 15:50 --> sai de silent mode
+7) 16:20 --> entra em silent mode
+8) 19:00 --> sai de silent mode
