@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">Kmeleon</string>
     <string name="RUAlarm">Bandeijão</string>
     <string name="SilentService">Aulas Silenciosas</string>
-	<string name="RUNotification">Corra para o bandeijão !!!</string>
-	<string name="RUweb">http://www.pcasc.usp.br/pop_cardapio.php</string>
+    <string name="RUNotification">Corra para o bandeijão !!!</string>
+    <string name="RUweb">http://www.pcasc.usp.br/pop_cardapio.php</string>
 </resources>

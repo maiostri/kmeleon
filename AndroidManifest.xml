@@ -16,19 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AlarmList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 		<service android:name=".NotifyService"/>
 		<receiver android:enabled="true"
 			android:exported="false"
 			android:name=".AlarmBroadcastReceiver">
 		</receiver>
-		<service android:name=".SilentService"/>
+		<service android:name="com.exercise.SilentService.SilentService"/>
 		<receiver android:enabled="true"
 			android:exported="false"
-			android:name=".OnSilentBroadcastReceiver">
+			android:name="com.exercise.SilentService.OnSilentBroadcastReceiver">
 		</receiver>
 		<receiver android:enabled="true"
 			android:exported="false"
-			android:name=".OffSilentBroadcastReceiver">
+			android:name="com.exercise.SilentService.OffSilentBroadcastReceiver">
 		</receiver>
     </application>
 </manifest>

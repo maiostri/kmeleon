@@ -38,4 +38,11 @@
     android:layout_height="wrap_content" 
     android:text="Stop Service"
     />
+<Button
+    android:id="@+id/debugdatabase"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Debug database"
+    />
+
 </LinearLayout>
